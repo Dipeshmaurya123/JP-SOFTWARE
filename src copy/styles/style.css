@@ -1,0 +1,64 @@
+body {
+  font-family: Arial, sans-serif;
+}
+
+.navbar {
+  background: #0d1b2a !important;
+}
+
+.hero {
+  background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
+  color: white;
+  padding: 100px 0;
+}
+
+.hero h1 {
+  font-size: 45px;
+  font-weight: 700;
+}
+
+.hero p {
+  font-size: 18px;
+}
+
+.features li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.features li::before {
+  content: "✔ ";
+  color: #00ffcc;
+}
+
+.btn-custom {
+  background: #ffcc00;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.service-card {
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+  background: #f8f9fa;
+  transition: 0.3s;
+}
+
+.service-card:hover {
+  transform: translateY(-10px);
+}
+
+.pricing-card {
+  border: 1px solid #ddd;
+  padding: 30px;
+  text-align: center;
+}
+
+.footer {
+  background: #0d1b2a;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
